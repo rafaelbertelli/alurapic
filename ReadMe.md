@@ -1,8 +1,10 @@
 # Projeto de estudo Angular2
 
 1. alurapic/server
-
-//js
 npm start
 
-2.
+2. alurapic/client
+npm install
+para instalar todas as dependências do projeto
+
+3. 
