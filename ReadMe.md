@@ -1,13 +1,13 @@
-# Projeto de estudo Angular2
+# Angular2
 
-1. Instalar dependências do projeto
+1.Instalar dependências do projeto
 alurapic/server
 `npm install`
 
-2. INICIAR SERVER
+2.INICIAR SERVER
 alurapic/server
 `npm start`
 
-3. INICIAR CLIENT
+3.INICIAR CLIENT
 alurapic/client
 `npm start`
