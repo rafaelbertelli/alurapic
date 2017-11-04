@@ -1,13 +1,16 @@
 # Angular2
 
+
 1. Instalar dependências do projeto
  - alurapic/server
-`npm install`
+ -- `npm install`
+
 
 2. INICIAR SERVER
  - alurapic/server
-`npm start`
+ -- `npm start`
+
 
 3. INICIAR CLIENT
  - alurapic/client
-`npm start`
+ -- `npm start`
