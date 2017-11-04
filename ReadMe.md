@@ -1,6 +1,7 @@
 # Angular2
 
 1.Instalar dependências do projeto
+
 alurapic/server
 `npm install`
 
