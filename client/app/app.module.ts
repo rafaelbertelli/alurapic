@@ -9,7 +9,7 @@ import { PainelModule } from './painel/painel.module';
 import { CadastroComponent } from './cadastro/cadastro.component' // Chamei o component ao invez do module pq soh vou usar o cadastro na pagina da app exclusivamente, nao vou usar em outros pontos, ou seja, ele nao tem o modulo cadastro.module, pois ele faz parte apenenas do app.module
 import { ListagemComponent } from './listagem/listagem.component'
 import { routing } from './app.routes';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({ // transforma a classe num modulo do angular
 	imports: [ // Sao os modulos que meu app.component importa para usar. Sobre o BrowserModule, como roda no navegador, importo o BrowserModule, se fosse no Ionic, seria outro 
@@ -17,7 +17,8 @@ import { routing } from './app.routes';
 		FotoModule, 
 		HttpModule, 
 		PainelModule, 
-		routing 
+		routing,
+		FormsModule
 	], 
 	declarations: [ // declara o que faz parte deste modulo, neste caso, AppComponent e o CadastroComponent, pois sao componentes exclusivos deste modulo
 		AppComponent, 

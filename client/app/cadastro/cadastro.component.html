@@ -4,22 +4,22 @@
 			<div class="form-group">
 				<label>Titulo</label>
 				<input 
-					(input)="foto.titulo=$event.target.value" 
-					[value]="foto.titulo" 
+					name="titulo"
+					[(ngModel)]="foto.titulo"
 					class="form-control" placeholder="Titulo" autocomplete="off">
 			</div>
 			<div class="form-group">
 				<label>URL</label>
 				<input 
-					(input)="foto.url=$event.target.value"
-					[value]="foto.url" 
+					name="url"
+					[(ngModel)]="foto.url"
 					class="form-control" placeholder="URL" autocomplete="off">
 			</div>
 			<div class="form-group">
 				<label>Descrição</label>
 				<textarea 
-					(input)="foto.descricao=$event.target.value"
-					[value]="foto.descricao" 
+					name="descricao"
+					[(ngModel)]="foto.descricao"
 					class="form-control" placeholder="Descrição" autocomplete="off"></textarea>
 			</div>
 			<hr>
