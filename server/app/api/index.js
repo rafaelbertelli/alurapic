@@ -1,6 +1,6 @@
 var db = require('../../config/database');
 
-var api = {}
+var api = {};
 
 api.adiciona = function(req, res) {
     var foto = req.body;
@@ -43,11 +43,9 @@ api.listaPorGrupo = function(req, res) {
         if (err) return console.log(err);
         res.json(doc);
     });
-
 };
 
 api.remove = function(req, res) {
-
     db.remove({ _id: req.params.fotoId }, {}, function (err, numRemoved) {
         if (err) return console.log(err);
         console.log('removido com sucesso');
@@ -57,7 +55,6 @@ api.remove = function(req, res) {
 };
 
 api.listaGrupos = function(req, res) {
-
     res.json([
         {
             _id: 1, 
@@ -74,6 +71,5 @@ api.listaGrupos = function(req, res) {
     ]);
         
 };
-
 
 module.exports = api;
